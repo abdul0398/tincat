@@ -1,8 +1,5 @@
 #title,.container-fluid{
     background-color: #FF4161;
-    animation-name: background;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
 }
 .img-fluid{
     width: 12.5rem;
@@ -11,17 +8,11 @@ h1{
     color: rgb(255, 255, 255);
     font-family: "Montserrat";
     line-height: 1.5;
-    font-size: 2rem;
-    position: relative;
-    top: 100px;
-    text-align: right;
-    font-weight: 1000;
-}
-.button{
     display: inline-block;
-    position: relative;
-    top: 150px ;
-    left: 400px;
+    font-size: 2rem;
+    text-align: right;
+    margin-top: 100px;
+    font-weight: 1000;
 }
 .navbar-brand{
     font-size: 2rem;
@@ -39,8 +30,6 @@ h1{
 .navbar-nav{
     padding-right: 200px;
 }
-@keyframes background {
-    from{background-color: #FF4161;}
-    to{background-color: #f15e77;}
-    
+.button{
+    padding-left: 100px;
 }
