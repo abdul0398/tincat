@@ -52,15 +52,14 @@ h3{
     color: #8f8f8f;
     display: inline-block;
 }
-.carousel-item{
+.carousel-inner{
     background-color: #FF4161;
     height: 500px;
-    text-align:center;
 }
 .testimonial-text{
     position: absolute;
-    top:6.25rem;
-    left: 8.5vw;
+    top: 6.25rem;
+    left: 10vw;
     color: aliceblue;
     font-family: 'Montserrat';
     font-size: 3vw;
@@ -70,9 +69,11 @@ h3{
     width: 80px;
     position: absolute;
     top:350px;
+    left: 45vw;
 }
 em{
     width: auto;
+    left: 44vw;
     position: absolute;
     top: 26.875rem;
 }
