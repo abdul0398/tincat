@@ -24,10 +24,16 @@ h1{
 }
 .button{
     padding-left: 100px;
+    z-index: +1 ;
+    position: absolute;
+
 }
 .mob-dog{
     width:40%;
     transform: rotate(30deg);
+    position: relative;
+    top: 80px;
+    left: 50px;
 }
 .feature>p,.feature>h3{
     text-align: center;
@@ -35,6 +41,7 @@ h1{
 .feature{
     padding:100px 0;
     text-align: center;
+    position: relative;
 }
 h3{
     font-family:"Montserrat";
@@ -85,4 +92,60 @@ em{
 .logos>img{
     width: 15%;
     margin:0 30px 0 30px;
+}
+.pricing{
+    padding: 60px 0 0 0;
+}
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+#cta{
+    background-color: #FF4161;
+    height: 400px;
+    text-align: center;
+}
+#cta>h3{
+    top:100px;
+    position: relative;
+    color: aliceblue;
+    font-family:'Ubuntu';
+    font-size: 3rem;
+}
+#cta>button{
+    position: relative;
+    top:130px;
+}
+@media (max-width:993px){
+    h1{
+        text-align: center;
+    }
+    .mob-dog{
+        transform: rotate(0);
+        position: static;
+        padding-top:100px;
+
+    }
+    .dog{
+        text-align: center;
+    }
+    #cta>h3{
+        font-size: 2rem;
+    }
+}
+#footer{
+    text-align: center;
+    padding-top: 20px;
+    height: 150px;
+}
+#footer> * {
+    position: relative;
+    top: 120px;
+}
+#footer>p{
+    padding: 20px 25px 0 0;
+    font-size: smaller;
+    opacity: 0.6;
+
 }
