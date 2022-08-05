@@ -1,4 +1,4 @@
-#title,.container-fluid{
+#title,.container-fluid,.fa-4x:hover{
     background-color: #FF4161;
 }
 
@@ -11,6 +11,18 @@ h1{
     text-align: right;
     margin-top: 100px;
     font-weight: 1000;
+}
+h3{
+    font-family:"Montserrat";
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top:20px;
+}
+em{
+    width: auto;
+    left: 44vw;
+    position: absolute;
+    top: 26.875rem;
 }
 .navbar-brand{
     font-size: 2rem;
@@ -26,7 +38,6 @@ h1{
     padding-left: 100px;
     z-index: +1 ;
     position: absolute;
-
 }
 .mob-dog{
     width:40%;
@@ -43,17 +54,8 @@ h1{
     text-align: center;
     position: relative;
 }
-h3{
-    font-family:"Montserrat";
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-top:20px;
-}
 .fa-4x{
     color: #ef8172;
-}
-.fa-4x:hover{
-    color: #FF4161;
 }
 .feature>p{
     color: #8f8f8f;
@@ -77,12 +79,6 @@ h3{
     position: absolute;
     top:350px;
     left: 45vw;
-}
-em{
-    width: auto;
-    left: 44vw;
-    position: absolute;
-    top: 26.875rem;
 }
 #press{
     background-color:#FF4161;
@@ -147,5 +143,4 @@ em{
     padding: 20px 25px 0 0;
     font-size: smaller;
     opacity: 0.6;
-
 }
